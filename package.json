@@ -1,0 +1,28 @@
+{
+  "name": "unsolid",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --base=/bare/",
+    "preview": "vite preview",
+    "compile": "node scripts/compile.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.21.1",
+    "@babel/parser": "^7.21.2",
+    "@babel/template": "^7.20.7",
+    "@babel/traverse": "^7.21.2",
+    "@babel/types": "^7.21.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
